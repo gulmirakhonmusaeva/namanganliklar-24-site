@@ -15,7 +15,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1140px;
+    max-width: 1220px;
     padding-left: 20px;
     padding-right: 20px;
     margin-right: auto;
@@ -133,15 +133,19 @@ body {
     background: #fff;
     height: 71px;
     font-family: var(--second);
+   
+    
 }
 
 .nav-list {
     display: flex;
     justify-content: space-between;
     list-style: none;
+    margin: 0;
     padding: 0;
     padding-bottom: 20px;
     border-bottom: 2px solid #eeeeee;
+    margin-bottom: 40px;
 }
 
 .nav-list .nav-list-item .nav-list-link {
@@ -151,4 +155,62 @@ body {
     color:#7f7f7f;
     font-weight: 500;
 
+}
+
+.nav-img {
+    display: inline-block;
+    height: 128px;
+    margin-bottom: 50px;
+}
+
+/* Main */
+.main-section-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+}
+
+.main-section-card {
+    width: 393px;
+    background: #f6f6f6;
+    border-radius: 15px;
+    font-family: var(--second);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.main-section-heading {
+    margin: 0;
+    padding: 20px  18px 0 ;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-section-text {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0 30px 0 17px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4a4b4c;
+    font-weight: 400;
+}
+
+.main-section-img {
+    padding: 0 17px;
+    margin-top: 15px;
+    
+}
+
+.main-section-date {
+    margin-top: 15px;
+    padding: 0 17px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.main-section-date img {
+    margin-right: 15px;
 }
