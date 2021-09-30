@@ -169,6 +169,122 @@ body {
     margin-bottom: 50px;
 }
 
+/* Main */
+
+.main-section-news {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: -10px;
+    font-family: var(--second);
+}
+
+.section-title {
+    margin-top: 60px;
+    text-align:left;
+    font-size: 26px;
+    /* line-height:28px; */
+    font-weight: 500;
+    font-family: var(--second);
+}
+
+.main-news-item {
+    display: flex;
+    align-items: center;
+    width: 797px;
+    margin: 0 10px 10px 10px;
+    background: #f6f6f6;
+    border-radius: 15px;
+}
+
+.main-news-img {
+    padding:17px 20px ;
+}
+
+.main-news-list {
+    background: #f6f6f6;
+    padding: 0;
+    border-radius: 15px;
+    list-style: none;
+}
+
+.main-news-heading {
+    margin: 0;
+    padding: 20px  18px 0 ;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-news-info {
+    margin: 0;
+    padding-bottom: 25px;
+    margin-top: 10px;
+    /* margin-right: 15px; */
+    padding: 0 20px 0 17px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4a4b4c;
+    font-weight: 400;
+}
+
+.last-info {
+    padding-bottom: 20px;
+}
+
+.more-info {
+    margin-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-right: 0; */
+    width: 796px;
+    padding: 17px 0;
+    background: #eaeaea;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.more-info a {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    font-family: var(--second);
+    text-decoration: none;
+}
+
+hr {
+   width: 90%;
+   margin-top: 20px;
+}
+
+.list-title {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 17px;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: var(--second);
+}
+
+.main-news-akciya{
+    margin-top: 10px;
+    width: 393px;
+    object-fit: fill;
+    
+}
+
+/* Main seсtion */
+.main-section-date {
+    margin-top: 15px;
+    padding: 0 17px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.main-section-date img {
+    margin-right: 15px;
+}
 
 
 /* Footer */
@@ -195,12 +311,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-   
+    font-family: var(--second);
 }
 
 .footer-text-item {
     width: 229px;
-    /* padding-left: 221px; */
+    font-size: 12px;
+    line-height: 19px;
+    
 }
 
 .footer-list  {
