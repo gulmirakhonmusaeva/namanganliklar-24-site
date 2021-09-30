@@ -7,7 +7,7 @@
     --third:
     
 }
-
+/* 
 html {
     height: 100%;
 }
@@ -168,7 +168,7 @@ body {
     display: inline-block;
     height: 128px;
     margin-bottom: 50px;
-}
+} */
 
 /* Main */
 
@@ -328,7 +328,9 @@ body {
 
 .more-info {
     margin-top: 17px;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-right: 0; */
     width: 796px;
     padding: 17px 0;
     background: #eaeaea;
@@ -363,3 +365,4 @@ hr {
     width: 393px;
     
 }
+
